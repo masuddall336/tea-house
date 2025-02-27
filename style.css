@@ -1,0 +1,9 @@
+/* for css custom css */
+@theme {
+    --color-clifford: #da373d;
+}
+
+/* font manrope */
+.manrope> {
+    font-family: "Manrope", serif;
+}
