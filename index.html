@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-House</title>
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+
     <!-- use for tailwind utility classes style -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <!-- font Awesome for icon -->
@@ -15,13 +14,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
         <header class="">
             <div
-                class="header-wraper flex flex-col sm:flex-row items-center justify-between md:max-w-[80%] md:mx-auto sm:max-w-[95%] sm:px-3 text-center md:text-left">
+                class="header-wraper flex flex-col sm:flex-row items-center justify-between md:max-w-[80%] md:mx-auto sm:max-w-[95%] sm:px-3 text-center md:text-left ">
                 <div class="header-content-side  w-[100%]">
                     <h1 class="text-2xl md:text-5xl font-bold manrope ">It's good <br>
                         tea time at The <br> Tea House</h1>
@@ -86,7 +87,8 @@
             </div>
         </section>
         <section class="max-w-[80%] mx-auto mt-[100px]">
-            <div class="great-tea-wrapper grid md:grid-cols-2 grid-cols-1 text-wrap justify-between gap-15 items-center">
+            <div
+                class="great-tea-wrapper grid md:grid-cols-2 grid-cols-1 text-wrap justify-between gap-15 items-center">
                 <div class="great-tea-img grid grid-cols-2 grid-rows-3 gap-3">
                     <div class="cup-of-tea bg-red-200  bg-linear-to-r from-red-300 to-orange-200 rounded-lg">
 
@@ -103,7 +105,8 @@
                 </div>
                 <div class="great-tea-content ">
                     <h1 class="text-3xl font-bold pb-5">Great Tea, Freshly <br> Presented </h1>
-                    <p class="text-[#7777] leading-8">The meaning of gong cha is chanese is to provide the best tea to emperor
+                    <p class="text-[#7777] leading-8">The meaning of gong cha is chanese is to provide the best tea to
+                        emperor
                         from all possessions . It
                         represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
                         deeply
@@ -119,6 +122,63 @@
                         <h3 class="font-bold">Premium Quality</h3>
                         <p class="text-[#7777]">Premium Quality that makes tea more elegant and more durable when you
                             use it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bg-linear-to-r from-orange-300 to-red-500 -->
+         <!-- bg-[url(images/bg_cup.png)] -->
+        <section class="super-clin mt-[100px]">
+            <div
+                class="super-clint-wraper flex flex-col md:flex-row  justify-between  md:px-[50px] px-[5px] rounded-lg md:max-w-[80%] max-w-[98%] mx-auto items-center  gap-20 relative bg-[#6f6d6d]  bg-auto bg-no-repeat bg-center bg-linear-to-r from-orange-300 to-red-500 ">
+                <div class="super-clint-left  bg-cover bg-bottom">
+                    <h1 class="text-4xl font-bold pb-3 text-white">Meet Our Super Clients</h1>
+                    <p class="text-[#fff]">There are many variations of passages of Lorem Ipsum available, but the
+                        majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. </p>
+                    <button
+                        class="bg-white py-[7px] px-[20px] shadow-md rounded-lg font-bold text-linear-to-r from-cyan-500 to-blue-500 mt-5">Show
+                        All</button>
+                </div>
+                <div class="   grid  justify-items-end">
+                    <div class="super-clint-right p-3 shadow-md bg-white rounded-lg relative w-[75%] opacity-25 top-15">
+                        <img class="absolute top-[-20px] left-[-25px] bg-white rounded-[50%] p-1"
+                            src="images/client.png" alt="">
+                        <p class="text-[#47474777] w-[85%] pt-8">We are providing the best and suitable home insurance
+                            services for the people who are interested
+                            to treatment</p>
+                        <div class="mt-0">
+                            <h2 class="font-bold ">Ilham Yuda</h2>
+                            <p class="text-[#5f5c5c77]">Businessman</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="super-clint-right p-3 shadow-md bg-white rounded-lg relative w-[75%] z-30 justify-self-start ml-5 md:ml-0 grid">
+                        <img class="absolute top-[-20px] left-[-25px] bg-white rounded-[50%] p-1"
+                            src="images/client.png" alt="">
+                        <p class="text-[#47474777] w-[85%] pt-8">We are providing the best and suitable home insurance
+                            services for the people who are interested
+                            to treatment</p>
+                        <div class="mt-0">
+                            <h2 class="font-bold ">Ilham Yuda</h2>
+                            <p class="text-[#5f5c5c77]">Businessman</p>
+                        </div>
+                        <img class="justify-self-end" src="images/circles.png" alt="">
+                    </div>
+
+                    <div
+                        class="super-clint-right p-3 shadow-md bg-white rounded-lg relative w-[75%] opacity-25 -top-15">
+                        <img class="absolute top-[-20px] left-[-25px] bg-white rounded-[50%] p-1"
+                            src="images/client.png" alt="">
+                        <p class="text-[#47474777] w-[85%] pt-8">We are providing the best and suitable home insurance
+                            services for the people who are interested
+                            to treatment</p>
+                        <div class="mt-0">
+                            <h2 class="font-bold ">Ilham Yuda</h2>
+                            <p class="text-[#5f5c5c77]">Businessman</p>
+                        </div>
                     </div>
                 </div>
             </div>
